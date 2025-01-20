@@ -92,7 +92,7 @@ function numeroALetras(number) {
 
   let letras_decimales;
   let parte_decimal = parseInt(
-    Math.round((Math.abs(numero) - Math.abs(numeroEntero)) * 100)
+    Math.round((Math.abs(numeroEntero) - Math.abs(numeroEntero)) * 100)
   );
 
   if (parte_decimal > 9) {
