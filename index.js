@@ -148,21 +148,21 @@ const getTest = () => {
   return console.log("test number to letters library 🚀");
 };
 
-// module.exports = { getTest, convertirNumeroLetras, numeroALetras };
+module.exports = { getTest, convertirNumeroLetras, numeroALetras };
 
-console.log(convertirNumeroLetras(120, "PEN"));
-console.log(convertirNumeroLetras(200, "PEN"));
-console.log(convertirNumeroLetras(300, "PEN"));
-console.log(convertirNumeroLetras(400, "PEN"));
-console.log(convertirNumeroLetras(500, "PEN"));
-console.log(convertirNumeroLetras(600, "PEN"));
-console.log(convertirNumeroLetras(700, "PEN"));
-console.log(convertirNumeroLetras(800, "PEN"));
-console.log(convertirNumeroLetras(900, "PEN"));
-console.log(convertirNumeroLetras(9000.0, "PEN"));
-console.log(convertirNumeroLetras(90000.0, "PEN"));
-console.log(convertirNumeroLetras(900000.0, "PEN"));
-console.log(convertirNumeroLetras(9000000.0, "PEN"));
-console.log(convertirNumeroLetras(90000000.0, "PEN"));
-console.log(convertirNumeroLetras(900000000.0, "PEN"));
-console.log("hello");
+// console.log(convertirNumeroLetras(120, "PEN"));
+// console.log(convertirNumeroLetras(200, "PEN"));
+// console.log(convertirNumeroLetras(300, "PEN"));
+// console.log(convertirNumeroLetras(400, "PEN"));
+// console.log(convertirNumeroLetras(500, "PEN"));
+// console.log(convertirNumeroLetras(600, "PEN"));
+// console.log(convertirNumeroLetras(700, "PEN"));
+// console.log(convertirNumeroLetras(800, "PEN"));
+// console.log(convertirNumeroLetras(900, "PEN"));
+// console.log(convertirNumeroLetras(9000.0, "PEN"));
+// console.log(convertirNumeroLetras(90000.0, "PEN"));
+// console.log(convertirNumeroLetras(900000.0, "PEN"));
+// console.log(convertirNumeroLetras(9000000.0, "PEN"));
+// console.log(convertirNumeroLetras(90000000.0, "PEN"));
+// console.log(convertirNumeroLetras(900000000.0, "PEN"));
+// console.log("hello");
