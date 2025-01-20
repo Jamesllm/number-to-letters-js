@@ -1,84 +1,5 @@
-const MONEDAS = {
-  PEN: {
-    codigo_moneda: "PEN",
-    descripcion: "Nuevo Sol",
-    mn_short_dsc: "S/.",
-    singular: "sol",
-    plural: "soles",
-    centimos_singular: "céntimo",
-    centimos_plural: "céntimos",
-  },
-  USD: {
-    codigo_moneda: "USD",
-    descripcion: "US Dollar",
-    mn_short_dsc: "$",
-    singular: "dólar",
-    plural: "dólares",
-    centimos_singular: "centavo",
-    centimos_plural: "centavos",
-  },
-  EUR: {
-    codigo_moneda: "EUR",
-    descripcion: "Euro",
-    mn_short_dsc: "€",
-    singular: "euro",
-    plural: "euros",
-    centimos_singular: "céntimo",
-    centimos_plural: "céntimos",
-  },
-};
-
-const UNIDADES = [
-  "cero",
-  "uno",
-  "dos",
-  "tres",
-  "cuatro",
-  "cinco",
-  "seis",
-  "siete",
-  "ocho",
-  "nueve",
-];
-
-const DECENAS = [
-  "diez",
-  "once",
-  "doce",
-  "trece",
-  "catorce",
-  "quince",
-  "dieciséis",
-  "diecisiete",
-  "dieciocho",
-  "diecinueve",
-];
-
-const DIEZ_DIEZ = [
-  "cero",
-  "diez",
-  "veinte",
-  "treinta",
-  "cuarenta",
-  "cincuenta",
-  "sesenta",
-  "setenta",
-  "ochenta",
-  "noventa",
-];
-
-const CIENTOS = [
-  "_",
-  "ciento",
-  "doscientos",
-  "trescientos",
-  "cuatrocientos",
-  "quinientos",
-  "seiscientos",
-  "setecientos",
-  "ochocientos",
-  "novecientos",
-];
+const { MONEDAS } = require("./monedas.js");
+const { UNIDADES, DECENAS, DIEZ_DIEZ, CIENTOS } = require("./unidades.js");
 
 const leerDecenas = (numero) => {
   if (numero < 10) return UNIDADES[numero];
@@ -114,9 +35,9 @@ const leerMillones = (numero) => {
   return resultado;
 };
 
-const leerMillardos = (numero) => {
-  let [millardo, millon] = [Math.floor(numero / 1000000)];
-};
+// const leerMillardos = (numero) => {
+//   let [millardo, millon] = [Math.floor(numero / 1000000)];
+// };
 
 const numeroALetras = (numero) => {
   let entero = Math.floor(numero);
