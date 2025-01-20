@@ -1,6 +1,6 @@
 {
   "name": "number-to-letters-js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Convierte numero a texto, formato para boletas y factoras electronicas para la SUNAT Perú",
   "main": "index.js",
   "license": "MIT",
