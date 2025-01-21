@@ -46,7 +46,13 @@ Este paquete es una herramienta útil para convertir números a su representaci�
 Agrega el paquete a tu proyecto usando npm:
 
 ```bash
-npm install number-to-letters-js  
+npm i number-to-letters-js  
+```
+
+Agrega el paquete a tu proyecto usando yarn:
+
+```bash
+yarn add number-to-letters-js  
 ```
 
 ## Notas
