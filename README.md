@@ -4,7 +4,8 @@
 
 Este paquete es una herramienta útil para convertir números a su representación textual. Ideal para aplicaciones que requieren formatos específicos en documentos como boletas y facturas.
 
-    Nota: Este paquete se basa en el código original de efrenfuentes, que ha sido mejorado y arreglado para una mayor funcionalidad. Se han agregado nuevos formatos, soporte para múltiples monedas y una conversión optimizada.
+> **Nota**: Este paquete se basa en el código original de [**efrenfuentes**](https://gist.github.com/efrenfuentes/3785655), que ha sido mejorado significativamente. Ahora incluye soporte para múltiples monedas, conversiones optimizadas y correcciones en el formato.  
+
 
 ## Funciones Disponibles
 1. `numeroALetras()`
