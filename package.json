@@ -1,6 +1,6 @@
 {
   "name": "number-to-letters-js",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Convierte números a su representación textual en el formato requerido para boletas y facturas electrónicas según las normas de la SUNAT Perú. Este paquete es una herramienta esencial para desarrolladores que necesitan generar documentos fiscales con formatos específicos. Incluye soporte para múltiples monedas (PEN, USD, EUR), conversiones optimizadas y correcciones en el formato. Ideal para integrar en sistemas de facturación, gestión administrativa o cualquier aplicación que requiera la conversión de números a texto en cumplimiento con los estándares peruanos",
   "keywords": [
     "number to letters",
